@@ -81,6 +81,11 @@ public class CustomerServlet extends HttpServlet {
         } catch (ServletException | IOException e) {
             e.printStackTrace();
         }
+//        try {
+//            resp.sendRedirect("customer/create.jsp");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
     private void showEditForm(HttpServletRequest req, HttpServletResponse resp) {
         int id = Integer.parseInt(req.getParameter("id"));

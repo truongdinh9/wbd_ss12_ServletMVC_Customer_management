@@ -22,7 +22,7 @@
             <td><a href="/customers?action=view&id=${customer.getId()}">${customer.getName()}</a></td>
             <td>${customer.getEmail()}</td>
             <td>${customer.getAddress()}</td>
-            <td><a href="/customers?action=edit&id=${customer.getId()}">view</a></td>
+            <td><a href="/customers?action=edit&id=${customer.getId()}">edit</a></td>
             <td><a href="/customers?action=delete&id=${customer.getId()}">delete</a></td>
         </tr>
     </c:forEach>
